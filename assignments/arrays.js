@@ -82,7 +82,8 @@ const car33 = [
     car_year: "2011",
   }
 ];
-console.log(`Car 33 is a ${car33[0].car_year} ${car33[0].car_make} ${car33[0].car_model}`);
+console.log(inventory[32]);
+// console.log(`Car 33 is a ${car33[0].car_year} ${car33[0].car_make} ${car33[0].car_model}`);
 
 // ==== Challenge 2 ====
 // The dealer needs the information on the last car in their inventory.  What is the make and model of the last car in the inventory?  Log the make and model into the console.
@@ -93,7 +94,8 @@ let lastCar = [
     car_year: "1999",
   }
 ];
-console.log(`last Car is a ${lastCar[0].car_make} ${lastCar[0].car_model}`);
+console.log(inventory[49].car_make, inventory[49].car_model);
+// console.log(`last Car is a ${lastCar[0].car_make} ${lastCar[0].car_model}`);
 
 // ==== Challenge 3 ====
 // The marketing team wants the car models listed alphabetically on the website. Sort all the car model names into alphabetical order and log the results in the console
